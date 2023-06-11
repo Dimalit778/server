@@ -18,7 +18,7 @@ app.use(cors());
 app.use('/auth', authRoute);
 app.use('/users', userRoute);
 // app.use('/products');
-
+//da
 // Error handler
 app.use((err, req, res, next) => {
   const errorStatus = err.status || 500;
